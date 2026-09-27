@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+<defs>
+  <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071714"/><stop offset="1" stop-color="#102b24"/></linearGradient>
+  <linearGradient id="sol" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#3fa796"/><stop offset="1" stop-color="#78d9c6"/></linearGradient>
+</defs>
+<rect width="1600" height="980" fill="url(#pbg)"/>
+<text x="800" y="74" text-anchor="middle" fill="#f4efe1" font-family="Arial, sans-serif" font-size="40" font-weight="800">FROM FRAGMENTED GUIDANCE TO ONE TRACEABLE ASSISTANT</text>
+<g font-family="Arial, sans-serif">
+  <g fill="#261614" stroke="#c1443c" stroke-width="3">
+    <rect x="80" y="135" width="650" height="210" rx="28"/>
+    <rect x="80" y="380" width="650" height="210" rx="28"/>
+    <rect x="80" y="625" width="650" height="210" rx="28"/>
+  </g>
+  <g fill="#102d26" stroke="#3fa796" stroke-width="3">
+    <rect x="870" y="135" width="650" height="210" rx="28"/>
+    <rect x="870" y="380" width="650" height="210" rx="28"/>
+    <rect x="870" y="625" width="650" height="210" rx="28"/>
+  </g>
+  <g fill="#f4efe1" font-size="25" font-weight="700">
+    <text x="120" y="180">01 • FRAGMENTED LEGAL SOURCES</text>
+    <text x="120" y="425">02 • PRODUCT CLASSIFICATION COMPLEXITY</text>
+    <text x="120" y="670">03 • LANGUAGE + JURISDICTION BARRIERS</text>
+    <text x="910" y="180">01 • CURATED, VERSION-TRACKED CORPUS</text>
+    <text x="910" y="425">02 • FORMULATION + IP ROUTING</text>
+    <text x="910" y="670">03 • MULTILINGUAL DUAL-JURISDICTION ANSWERS</text>
+  </g>
+  <g fill="#c6ddd5" font-size="20">
+    <text x="120" y="222">Acts, rules, treaties, standards, registries and case law</text>
+    <text x="120" y="253">are distributed across multiple systems.</text>
+    <text x="120" y="467">The same formulation can trigger different IP,</text>
+    <text x="120" y="498">drug, food, cosmetic and biodiversity questions.</text>
+    <text x="120" y="712">Users may ask in Indian languages and operate across</text>
+    <text x="120" y="743">India and international filing regimes.</text>
+    <text x="910" y="222">Metadata, dates, sections and citations make retrieval</text>
+    <text x="910" y="253">auditable and easier to refresh when rules change.</text>
+    <text x="910" y="467">A small clarifying flow routes the question to the</text>
+    <text x="910" y="498">relevant IP, AYUSH and ABS pathways.</text>
+    <text x="910" y="712">Language, jurisdiction and evidence are explicit,</text>
+    <text x="910" y="743">with abstention when evidence is insufficient.</text>
+  </g>
+  <g stroke="#e0a339" stroke-width="8" fill="none">
+    <path d="M730 240H855"/><path d="M730 485H855"/><path d="M730 730H855"/>
+  </g>
+  <g fill="#e0a339">
+    <path d="M855 240l-26-18v36z"/><path d="M855 485l-26-18v36z"/><path d="M855 730l-26-18v36z"/>
+  </g>
+</g>
+</svg>
