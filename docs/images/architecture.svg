@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040">
+<defs>
+  <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061311"/><stop offset="1" stop-color="#12362d"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#000" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1600" height="1040" fill="url(#abg)"/>
+<text x="800" y="60" text-anchor="middle" fill="#f4efe1" font-family="Arial, sans-serif" font-size="40" font-weight="800">REFERENCE ARCHITECTURE</text>
+<g filter="url(#shadow)" font-family="Arial, sans-serif">
+  <rect x="90" y="120" width="1420" height="130" rx="26" fill="#102d26" stroke="#3fa796" stroke-width="3"/>
+  <text x="800" y="158" text-anchor="middle" fill="#7de1ca" font-size="21" font-weight="800">EXPERIENCE LAYER</text>
+  <text x="800" y="200" text-anchor="middle" fill="#f4efe1" font-size="24">Web UI • Login/Register • Language Selector • Voice • India / International Toggle</text>
+
+  <rect x="90" y="300" width="1420" height="150" rx="26" fill="#102d26" stroke="#e0a339" stroke-width="3"/>
+  <text x="800" y="338" text-anchor="middle" fill="#e0a339" font-size="21" font-weight="800">ORCHESTRATION / API LAYER</text>
+  <text x="800" y="380" text-anchor="middle" fill="#f4efe1" font-size="24">FastAPI • Auth • Query Router • Session Context • Audit Events • Guardrails</text>
+  <text x="800" y="414" text-anchor="middle" fill="#9ab3aa" font-size="18">Current repository: FastAPI boundary + demo RAG engine; production services are staged for implementation.</text>
+
+  <rect x="90" y="500" width="430" height="360" rx="26" fill="#122622" stroke="#34584e" stroke-width="2"/>
+  <rect x="585" y="500" width="430" height="360" rx="26" fill="#122622" stroke="#34584e" stroke-width="2"/>
+  <rect x="1080" y="500" width="430" height="360" rx="26" fill="#122622" stroke="#34584e" stroke-width="2"/>
+  <g fill="#f4efe1" font-size="24" font-weight="800">
+    <text x="305" y="545" text-anchor="middle">KNOWLEDGE</text>
+    <text x="800" y="545" text-anchor="middle">RETRIEVAL + REASONING</text>
+    <text x="1295" y="545" text-anchor="middle">DELIVERY + TRUST</text>
+  </g>
+  <g fill="#c6ddd5" font-size="19">
+    <text x="125" y="588">• Versioned corpus</text><text x="125" y="620">• PDFs / OCR</text><text x="125" y="652">• Metadata</text><text x="125" y="684">• Vector index</text><text x="125" y="716">• Relational graph</text><text x="125" y="748">• Source registry</text>
+    <text x="610" y="588">• Hybrid retrieval</text><text x="610" y="620">• Reranking</text><text x="610" y="652">• Query decomposition</text><text x="610" y="684">• Formulation classifier</text><text x="610" y="716">• Agent orchestration</text><text x="610" y="748">• Answer / abstain</text>
+    <text x="1105" y="588">• Multilingual generation</text><text x="1105" y="620">• Citations</text><text x="1105" y="652">• Confidence</text><text x="1105" y="684">• Human escalation</text><text x="1105" y="716">• Privacy / audit</text><text x="1105" y="748">• Analytics</text>
+  </g>
+
+  <rect x="90" y="910" width="1420" height="80" rx="22" fill="#0b201b" stroke="#31564b" stroke-width="2"/>
+  <text x="800" y="942" text-anchor="middle" fill="#e0a339" font-size="18" font-weight="800">DATA / EXTERNAL CONNECTORS</text>
+  <text x="800" y="970" text-anchor="middle" fill="#c6ddd5" font-size="17">TKDL • India Code • IP India • AYUSH resources • WIPO • approved paid/public connectors</text>
+</g>
+</svg>
