@@ -1,6 +1,67 @@
-﻿__pycache__/
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
 .venv/
 venv/
 env/
+ENV/
+
+# Environment / secrets
 .env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets/
+credentials/
+**/credentials.json
+**/*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated RAG / AI data
+data/uploads/
+data/raw/
+data/private/
+data/indexes/
+data/vectorstore/
+data/chroma/
+data/faiss/
+*.faiss
+*.index
+*.parquet
+
+# Logs
+*.log
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build / cache
+dist/
+build/
+node_modules/
+
+# Test artifacts
+coverage/
+htmlcov/
