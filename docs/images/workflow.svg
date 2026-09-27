@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<defs>
+  <linearGradient id="wbg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081613"/><stop offset="1" stop-color="#14382f"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity=".3"/></filter>
+</defs>
+<rect width="1600" height="920" fill="url(#wbg)"/>
+<text x="800" y="62" text-anchor="middle" fill="#f4efe1" font-family="Arial, sans-serif" font-size="40" font-weight="800">IP-SAKTI SAHAYAK — END-TO-END WORKFLOW</text>
+<g filter="url(#shadow)" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+  <g fill="#102d26" stroke="#3fa796" stroke-width="3">
+    <rect x="80" y="150" width="190" height="86" rx="18"/><rect x="340" y="150" width="190" height="86" rx="18"/>
+    <rect x="600" y="150" width="190" height="86" rx="18"/><rect x="860" y="150" width="190" height="86" rx="18"/>
+    <rect x="1120" y="150" width="190" height="86" rx="18"/><rect x="1370" y="150" width="150" height="86" rx="18"/>
+  </g>
+  <g fill="#f4efe1">
+    <text x="175" y="188">1. USER</text><text x="175" y="211">QUERY</text>
+    <text x="435" y="188">2. LANGUAGE +</text><text x="435" y="211">INTENT</text>
+    <text x="695" y="188">3. FORMULATION</text><text x="695" y="211">ROUTING</text>
+    <text x="955" y="188">4. RETRIEVAL +</text><text x="955" y="211">FILTERS</text>
+    <text x="1215" y="188">5. GENERATION +</text><text x="1215" y="211">CITATION</text>
+    <text x="1445" y="188">6. SAFE</text><text x="1445" y="211">RESPONSE</text>
+  </g>
+  <g stroke="#e0a339" stroke-width="6" fill="none">
+    <path d="M270 193H340"/><path d="M530 193H600"/><path d="M790 193H860"/><path d="M1050 193H1120"/><path d="M1310 193H1370"/>
+  </g>
+  <g fill="#e0a339">
+    <path d="M340 193l-20-14v28z"/><path d="M600 193l-20-14v28z"/><path d="M860 193l-20-14v28z"/><path d="M1120 193l-20-14v28z"/><path d="M1370 193l-20-14v28z"/>
+  </g>
+</g>
+<g font-family="Arial, sans-serif">
+  <g fill="#122622" stroke="#34584e" stroke-width="2">
+    <rect x="105" y="340" width="420" height="250" rx="24"/>
+    <rect x="590" y="340" width="420" height="250" rx="24"/>
+    <rect x="1075" y="340" width="420" height="250" rx="24"/>
+  </g>
+  <g fill="#f4efe1" font-size="24" font-weight="800">
+    <text x="145" y="385">RETRIEVAL SOURCES</text>
+    <text x="630" y="385">REASONING LAYERS</text>
+    <text x="1115" y="385">TRUST OUTPUT</text>
+  </g>
+  <g fill="#c6ddd5" font-size="19">
+    <text x="145" y="425">• India Code / statutes</text>
+    <text x="145" y="457">• IP India registers</text>
+    <text x="145" y="489">• TKDL / prior-art pointers</text>
+    <text x="145" y="521">• AYUSH standards &amp; rules</text>
+    <text x="145" y="553">• Treaties / case law / standards</text>
+    <text x="630" y="425">• Metadata-aware retrieval</text>
+    <text x="630" y="457">• Formulation classifier</text>
+    <text x="630" y="489">• India vs international routing</text>
+    <text x="630" y="521">• ABS reasoning helper</text>
+    <text x="630" y="553">• Confidence + abstention</text>
+    <text x="1115" y="425">• Source citations</text>
+    <text x="1115" y="457">• Confidence indicator</text>
+    <text x="1115" y="489">• Information-not-legal-advice</text>
+    <text x="1115" y="521">• Human facilitator escalation</text>
+    <text x="1115" y="553">• Audit trail</text>
+  </g>
+</g>
+<g transform="translate(250 690)" font-family="Arial, sans-serif">
+  <rect width="1100" height="140" rx="24" fill="#0b201b" stroke="#e0a339" stroke-width="3"/>
+  <text x="550" y="48" text-anchor="middle" fill="#e0a339" font-size="22" font-weight="800">ANSWER CONTRACT</text>
+  <text x="550" y="82" text-anchor="middle" fill="#f4efe1" font-size="20">Evidence → Reasoning → Citation → Confidence → Safe action</text>
+  <text x="550" y="112" text-anchor="middle" fill="#9ab3aa" font-size="16">If evidence is insufficient, abstain instead of inventing authority.</text>
+</g>
+</svg>
